@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnSubmit=findViewById(R.id.SubmitButton);
         TextView tv=findViewById(R.id.tvInput);
         CheckBox checkBox=findViewById(R.id.cb);
-        String regexPhone= "^[0-9]";
+   
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,10 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     cb=false;
                 }
-                if(!phone.matches(regexPhone))
-                {
-                    etPhone.setError("Fill the input  with a valid phone ");
-                }
+                
                 tv.setText("Input email:"+email+"\nInputPhone: "+phone+"\nInput CheckBox "+cb.toString());
             }
         });
