@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Challenge2-LoginScreen</string>
+    <string name="Titlu">LOGIN</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPhone">Phone</string>
+    <string name="termenisicondtii">I accept T&amp;C</string>
+</resources>
